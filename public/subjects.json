@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/91HJ+9eRqmL.jpg",
+     "name": "Physics",
+     "duration":"1"
+     
+  },
+  {
+    "id": "2",
+    "image":"https://m.media-amazon.com/images/I/515XLT9slEL.jpg",
+     "name": "Chemistry",
+     "duration":"1"
+     
+  },
+  {
+    "id": "3",
+    "image":"https://m.media-amazon.com/images/I/41Jfst2wS2L._SX260_.jpg",
+     "name": "Math",
+     "duration":"1"
+     
+  },
+  {
+    "id": "4",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/41Wcvhyy7ML._SX376_BO1,204,203,200_.jpg",
+     "name": "Biology",
+     "duration":"1"
+     
+  },
+  {
+    "id": "5",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/616xr-M0ywL._SX698_BO1,204,203,200_.jpg",
+     "name": "English",
+     "duration":"1"
+     
+  },
+  {
+    "id": "6",
+    "image":"https://m.media-amazon.com/images/I/51DF6ZR8G7L._AC_UL320_.jpg",
+     "name": "Non-academic",
+     "duration":"1"
+     
+  }
+
+  
+]

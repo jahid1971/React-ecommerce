@@ -9,11 +9,11 @@ const Product = (props) => {
         <div className='h-[508px] w-[300px] border border-1 rounded-lg flex flex-col justify-between '>
             <img src={img} alt="" className='h-[286px] w-[286px] m-2 rounded-lg' />
 
-           <div className='mx-[14px]'>
+           <div className='mx-[14px] '>
                 <p className='name'>{name}</p>
                 <p className='name-price price'>Price: {price}</p>
-                <p className='mt-[12px]'> Seller: {seller}</p>
-                <p> Rating: {ratings}</p> 
+                <p className='mt-[12px] seller-rating'> Seller: {seller}</p>
+                <p className='seller-rating'> Rating: {ratings}</p> 
            </div>
            <button onClick={ () => props.handleAddToCart(props.product) } className='w-full bg-[#FFE0B3] hover:bg-amber-500 py-4 rounded-b-lg '>
              Add to cart

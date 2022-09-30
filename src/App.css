@@ -36,6 +36,33 @@
     transform: rotate(360deg);
   }
 } */
+.subject {
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
+  grid-gap: 1rem;
+};
+
+
+@media only screen and (min-width: 300px){
+  .main-container{
+    display: flex;
+    flex-direction:column;
+  }
+  .sidebar{
+    background-color: red;
+    width: 80%;
+  }
+}
+@media only screen and (min-width:768px){
+  .main-container{
+    display: flex;
+    justify-content: space-between
+  }
+}
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

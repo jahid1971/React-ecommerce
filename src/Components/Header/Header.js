@@ -1,20 +1,15 @@
 import React from 'react';
-import './Header.css'
-import logo from '../../images/Logo.svg'
+import img from '../../images/study.png'
 
 const Header = () => {
     return (
-        <nav className='header text-white '>
+        <div className='flex mt-10 mb-7 items-center'>
+            <img src={img} alt="" className='w-10 h-10 mr-4' />
 
-                <img src={logo} alt="" />
-            
-            <div className='flex gap-[32px]'>
-                <a href="">Order</a>
-                <a href="">Order review</a>
-                <a href="">Manage Inventory</a>
-                <a href="">Log in</a>
+            <div>
+                 <h3 className='text-cyan-400'> Study Planning</h3>
             </div>
-        </nav>
+        </div>
     );
 };
 
